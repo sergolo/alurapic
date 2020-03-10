@@ -11,6 +11,7 @@ export class AppComponent implements OnInit {
   photos: Object[] = [];
 
   constructor(private photoService: PhotoService) {}
+
   ngOnInit(): void {
     this.photoService
       .listFromUser('flavio')
