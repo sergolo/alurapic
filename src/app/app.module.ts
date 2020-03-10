@@ -1,3 +1,4 @@
+import { PhotoService } from './photos/photo/photo.service';
 import { PhotosModule } from './photos/photos.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
