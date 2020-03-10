@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { PhotoComponent } from './photo/photo.component';
 
@@ -8,6 +9,9 @@ import { PhotoComponent } from './photo/photo.component';
   ],
   exports: [
     PhotoComponent
+  ],
+  imports: [
+    HttpClientModule
   ]
 })
 export class PhotosModule {}
